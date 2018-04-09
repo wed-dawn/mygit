@@ -1,0 +1,15 @@
+mkdir [A NEW EMPTY FOLDER]
+cd [THE NEW FOLDERR]
+git init
+vim [A NEW CODE]
+git add [THE NEW CODE FLIE NAME]
+git commit -m "[DESCRIPTION]"
+git status
+git diff <file name>
+git log --pretty=oneline
+git reset --hard HEAD^
+git reflog
+git checkout -- <file>//丢弃工作区修改
+git reset HEAD file//可以把暂存区的修改撤销掉（unstage），重新放回工作区
+git push origin master
+
